@@ -15,10 +15,16 @@ Most Astro skills are stuck on Astro 4/5 APIs (`output: 'hybrid'`, `entry.render
 
 ## Installation
 
+### Skills CLI
+
+```bash
+npx skills add https://github.com/bioodev/skill-astro-framework-pro
+```
+
 ### Claude Code (manual)
 
 ```bash
-git clone <this-repo> ~/skills/astro-framework-pro
+git clone https://github.com/bioodev/skill-astro-framework-pro.git ~/skills/astro-framework-pro
 ln -s ~/skills/astro-framework-pro ~/.claude/skills/astro-framework-pro
 ```
 
